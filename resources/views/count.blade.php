@@ -1,3 +1,5 @@
+<p class="bg-primary">{{ $titiles->count() }}</p>
+
 <table class="table">
     @foreach($titles as $title)
         <tr class="success">
